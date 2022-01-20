@@ -1,13 +1,19 @@
 {
-  "ExpandedNodes": [
-    ""
-  ],
-  "SelectedNode": "\\C:\\Users\\Forte\\Source\\Repos\\COMP371_all",
-  "PreviewInSolutionExplorer": false,
-  "ActiveTargetSystem": "WSL: Ubuntu",
+  "ActiveTargetSystem": "Local Machine",
   "MRUPresetsPerTargetSystem": {
     "Local Machine": {
       "configure": "x64-debug"
+    },
+    "WSL: Ubuntu": {
+      "configure": "linux-debug"
+    },
+    "WSL: Ubuntu-20.04": {
+      "configure": "linux-debug"
     }
-  }
+  },
+  "ExpandedNodes": [
+    ""
+  ],
+  "SelectedNode": "\\raytracer.sln",
+  "PreviewInSolutionExplorer": false
 }

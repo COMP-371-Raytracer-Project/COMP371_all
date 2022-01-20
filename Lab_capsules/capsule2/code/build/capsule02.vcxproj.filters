@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\Lab_capsules\capsule2\code\capsule02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Forte\source\repos\COMP371_all\Lab_capsules\capsule2\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22D4293A-FF7D-3031-BD18-5095AE6B267C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

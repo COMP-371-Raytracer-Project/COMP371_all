@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Forte\source\repos\COMP371_all\Lab_capsules\capsule2\code\build\CMakeFiles\ac2a20ad9521cfe3969d3bdeeade8dca\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{989034D9-B15D-36BE-8C11-8818FC50F277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

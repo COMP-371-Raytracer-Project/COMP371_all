@@ -28,15 +28,17 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_PREFIX_PATH
     /encs # For ENCS lab computers
-    /opt/local # Macports
+    /opt/local # Macports   
+    /usr/bin # WSL on Home machine
 )
 
 # ENCS Eigen3 CMake setup
 if (WIN32)
-include_directories(C:/Users/Forte/Source/Repos/COMP371_all/COMP371_RaytracerBase/code/eigen-3.4.0/)# for windows you can directly hardcode the paths to your libraries in the include
+include_directories(D:/Users/Forte/Desktop/eigen-3.4.0/eigen-3.4.0/)# for windows you can directly hardcode the paths to your libraries in the include
 else() 
 set(ENV{EIGEN3_ROOT} /encs/pkg/eigen-3.3.7/root)
-set(CMAKE_MODULE_PATH /encs/pkg/eigen-3.3.7/root/cmake)
+#set(CMAKE_MODULE_PATH /encs/pkg/eigen-3.3.7/root/cmake)
+set(CMAKE_MODULE_PATH /home/jforte/src/eigen/cmake)
 
 find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
