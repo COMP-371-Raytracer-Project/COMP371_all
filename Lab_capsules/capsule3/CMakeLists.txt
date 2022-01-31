@@ -12,7 +12,7 @@ set(CMAKE_PREFIX_PATH
 )
 
 find_package(OpenGL REQUIRED COMPONENTS OpenGL)
-find_package(GLEW REQUIRED)
+#find_package(GLEW REQUIRED)
 find_package(glfw3 REQUIRED
     HINTS /encs/pkg/glfw-3.3.4/root # ENCS installation of glfw
 )
@@ -35,9 +35,13 @@ add_definitions(
 )
 
 # NOTE: ENCS glm installation is missing links to *.inl files so we need this line
-include_directories(/encs/pkg/glm-0.9.9.8/root/include)
+#include_directories(/encs/pkg/glm-0.9.9.8/root/include)
+include_directories(D:/Users/Forte/Desktop/glm-0.9.9.8/glm)
+include_directories("C:/Program Files (x86)/glew/include/")
 
 aux_source_directory(src SOURCES)
-add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} ${ALL_LIBS})
+
+#add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(${PROJECT_NAME} capsule03.cpp) #The name of the cpp file and its path can vary
+target_link_libraries(${PROJECT_NAME} OpenGL::GL "C:/Program Files (x86)/glew/lib/libglew32d.lib" "C:/Program Files (x86)/glew/lib/glew32d.lib" glfw)
 

@@ -16,11 +16,31 @@
     <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\external\test_ppm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\RayTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Specifications.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\RayTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Specifications.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A1538AFE-38BE-3E87-8FBF-6EC24F6E97A0}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{9C2EE96E-DDC3-3653-8AA7-622E7301E1E6}</UniqueIdentifier>
     </Filter>
