@@ -19,7 +19,10 @@
     <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\RayTracer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Specifications.cpp">
+    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\SceneObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\SceneSpecification.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,7 +33,10 @@
     <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\Specifications.h">
+    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\SceneSpecification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Forte\source\repos\COMP371_all\COMP371_RaytracerBase\code\src\SceneObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

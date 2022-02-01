@@ -15,12 +15,8 @@
     "",
     "\\COMP371_RaytracerBase",
     "\\COMP371_RaytracerBase\\code",
-    "\\COMP371_RaytracerBase\\code\\assets",
-    "\\COMP371_RaytracerBase\\code\\external",
-    "\\COMP371_RaytracerBase\\code\\out",
-    "\\COMP371_RaytracerBase\\code\\out\\build",
     "\\COMP371_RaytracerBase\\code\\src"
   ],
-  "SelectedNode": "\\COMP371_RaytracerBase\\code\\src\\SceneObject.h",
+  "SelectedNode": "\\COMP371_RaytracerBase\\code\\src\\Ray.h",
   "PreviewInSolutionExplorer": false
 }
